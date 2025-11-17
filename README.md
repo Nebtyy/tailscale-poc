@@ -91,3 +91,6 @@ Then get access:
 ```
 curl http://<hostname>.<tailnet>.ts.net:8888/
 ```
+
+![photo_2025-11-17_15-32-48](https://github.com/user-attachments/assets/b22fd33c-d58c-43bc-85f1-f205ce260e8d)
+
