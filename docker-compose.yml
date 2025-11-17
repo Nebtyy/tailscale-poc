@@ -1,0 +1,12 @@
+version: "3.9"
+
+services:
+  tailscale-real:
+    build: .
+    container_name: tailscale-real
+    privileged: true
+    tty: true
+    environment:
+      - TS_AUTHKEY=tskey-auth-your-key-here  # 👈 
+    ports:
+      - "8888:8888"
